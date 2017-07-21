@@ -4,7 +4,7 @@ USER root
 
 # Update & Upgrade OS
 RUN apt-get update \
-    && apt-get -y upgrade
+ && apt-get -y upgrade
 
 # Add Maven
 RUN apt-get -y install maven --no-install-recommends
