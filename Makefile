@@ -1,9 +1,14 @@
 # 
+default:
+
+build:
+	docker-compose build	
+
 start:
-    docker-compose up -d
+	docker-compose up -d
 
 stop:
-    docker-compose down
+	docker-compose down
 
 update:
-    docker pull cloudbees/cloudbees-jenkins-team
+	docker pull cloudbees/cloudbees-jenkins-team
