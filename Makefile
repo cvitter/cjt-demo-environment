@@ -9,6 +9,3 @@ start:
 
 stop:
 	docker-compose down
-
-update:
-	docker pull cloudbees/cloudbees-jenkins-team
