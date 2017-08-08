@@ -2,6 +2,7 @@
 default:
 
 build:
+	docker pull cloudbees/cloudbees-jenkins-team
 	docker-compose build	
 
 start:
