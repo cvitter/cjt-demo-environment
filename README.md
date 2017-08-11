@@ -54,6 +54,8 @@ or:
 
 ``docker-compose up -d``
 
+When the container is up and running your CloudBees Jenkins Team instance will be available at: http://localhost:9080
+
 If you need to stop your container you can use:
 
 ``make stop``
