@@ -22,7 +22,7 @@ If you would like to set time zone you can edit the following line in the ``envi
 
 In the default configuration CloudBees Jenkins Team will be available on port ``9090`` (i.e. at ``http://localhost:9090``). You can edit the port in the following line in the ``ports`` section of the file:
 
-`` - "9080:8080" #host:container ``
+`` - "9090:8080" #host:container ``
 
 **Persistent Storage**: 
 
@@ -54,7 +54,7 @@ or:
 
 ``docker-compose up -d``
 
-When the container is up and running your CloudBees Jenkins Team instance will be available at: http://localhost:9080
+When the container is up and running your CloudBees Jenkins Team instance will be available at: http://localhost:9090
 
 If you need to stop your container you can use:
 
